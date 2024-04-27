@@ -10,6 +10,7 @@ body{
 }
 
 .headerFooter{
+  
   background: rgb(216, 204, 235)
 }
 /* ul{
@@ -22,6 +23,7 @@ text-decoration: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin-left: 40px;
   margin-right: 40px;
   padding: 1.5rem 0;
@@ -31,6 +33,7 @@ text-decoration: none;
   list-style: none;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .listaItem{
