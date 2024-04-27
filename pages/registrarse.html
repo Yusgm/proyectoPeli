@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/87ec3da4b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styles_final.css">
+</head>
+<body>
+    <header>
+        <!-- esta es la cabecera -->
+        <nav class="navegacion">
+            <a href="../index.html">
+                <img src="../assets/img/fondo.png" alt="imag logo" width="100" loading="lazy">
+            </a>
+            <ul class="listaNav">
+
+                <li class="listaItem"><a class="linkNav" href="#tendencia">Tendencias</a></li>
+                <li class="listaItem"><a class="linkNav" href="registrarse.html">Registrarse</a></li>
+                <li class="listaItem"><a class="linkNav iniciarSesion" href="inicioSesion.html">Iniciar Sesión</a></li>
+            </ul>
+      </nav>
+    </header>
+            <main>
+                <h1>REGISTRO</h1>
+               <!--SUBTITULO>
+                <H3>SUBTITULO</H3>
+                <H4>SUBTITULO</H4>
+                <H5>SUBTITULO</H5>
+                <H6>SUBTITULO</H6>
+                <P>SUBTITULO</P>--> 
+                <form>
+                    <div>
+                        <label for="name">Ingrese su Nombre:</label>  <!--no usar br mala practica-->
+                        <input type="text" name="nombre" id="name" placeholder="Nombre" required>
+                    </div><br>
+                    <div>
+                        <label for="apellido">Ingrese su Apellido:</label>
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+                    </div><br>
+                    <div>
+                        <label for="email">Ingrese su email:</label>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                    </div><br>
+                    <div>
+                        <label for="password">Ingrese su contraseña:</label>
+                        <input type="password" name="password" id="password" placeholder="Contraseña" required>
+                    </div><br>
+                    <div>
+                        <label for="">Ingrese su fecha de nacimiento:</label>
+                        <input type="date" name="nacimiento" id="nacimiento" required>
+                    </div><br>
+                    <div>
+                        <label for="">Ingrese País:</label>
+                        <select name="país" id="país">
+                            <option value="argentina">Argentina</option>
+                            <option value="venezuela">Venezuela</option>
+                            <option value="brasil" selected>Brasil</option>
+                        </select>
+                    </div><br>
+                    <div>
+                        <div>
+                        <textarea name="Comentario" id="comentario" cols="30" rows="10" placeholder="Comentario"></textarea>
+                    </div> 
+                        <label for="terminos">Acepte terminos y condiciones</label>
+                        <input type="radio" value="1" name="terminos">SI
+                        <input type="radio" value="2" name="terminos">NO
+                    </div>
+                   
+                    <div>
+                        <input type="reset">
+                        <input type="submit" value="Registrarme">
+                        <button id="imprimir">IMPRIMIR</button>
+                    </div>
+                </form>
+            </main>
+    <footer>
+        <!-- este es el pie de pagina -->
+    </footer>
+   
+</body>
+</html>

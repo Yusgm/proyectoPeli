@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codoflix ! catalogo de peli</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/87ec3da4b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles_final.css">
+</head>
+    
+<body>
+    <header>
+        <!-- para aplicar un selector es mejor class que id (id="header" class="header") -->
+    <!-- esta es la cabecera -->
+            <nav class="navegacion">
+                <a href="#">
+                    <img src="./assets/img/fondo.png" alt="imag logo" width="100" loading="lazy">
+                </a>
+                <ul class="listaNav">
+
+                    <li class="listaItem"><a class="linkNav" href="#tendencia">Tendencias</a></li>
+                    <li class="listaItem"><a class="linkNav" href="./pages/registrarse.html">Registrarse</a></li>
+                    <li class="listaItem"><a class="linkNav iniciarSesion" href="./pages/inicioSesion.html">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </header>
+            <main>
+                
+                <ol>
+                <li>ver cartelera</li>
+                <li>elegir pelicula</li>
+                <li>comprar</li>
+                </ol>
+            
+               <section id="principal">
+                <h1>Peliculas y series ilimitadas
+                    en un solo lugar</h1>
+                <h2>Disfruta donde quieras</h2>
+                <h2>cancela en cualquier momento</h2>
+
+                <a class="linkNav2" href="/pages/registrarse.html">Registrate</a>
+              
+            </section>
+            <br>
+               <section >
+                <div class="formT"> 
+                <form action="">
+                <input type="text" id="Buscar" name="Buscar" placeholder="Buscar..." required>
+                <input type="submit" value="Buscar" id="btnBuscar" name="btnBuscar">
+                </form>
+                </div><br>
+
+                <!-- hr es para introducir una linea -->
+                <hr>
+               </section>
+                <div>
+                    <h2>Las tendencias de hoy</h2>
+                </div><br>
+                
+               <section id="tendencia">
+               
+                <!--incororar 8 imagenes de peli-->
+                <div class="box">
+                    <a href="./pages/detalle.html">
+                    <img class="imagenPeli" src="./assets/img/peli 1.png" alt="DESCANSA EN PAZ">
+                    <h3>DESCANSA EN PAZ</h3> 
+                    </a>
+                </div>  
+                <div class="box">
+                    <a href="./pages/detalle.html">
+                    <img class="imagenPeli" src="./assets/img/peli 2.png" alt="EL ROBO DEL SIGLO">
+                    <H3>EL ROBO DEL SIGLO</H3>
+                   </a>
+                </div>
+                <div class="box">
+                    <a href="./pages/detalle.html">
+                    <img class="imagenPeli" src="./assets/img/peli 3.png" alt="NUEVE REINAS">
+                    <h3>NUEVE REINAS</h3>
+                </div>
+                <div class="box">
+                    <a href="./pages/detalle.html">
+                    <img class="imagenPeli" src="./assets/img/peli 4.png" alt="EL CLAN">
+                    <h3>EL CLAN</h3>
+                </div>
+                <div class="box">
+                    <a href="./pages/detalle.html">
+                    <img class="imagenPeli" src="./assets/img/peli 5.png" alt="OPPENHEIMER">
+                    <h3>OPPENHEIMER</h3>
+                </div>
+                <div class="box">
+                    <a href="./pages/detalle.html">
+                    <img class="imagenPeli" src="./assets/img/peli 6.png" alt="LA SOCIEDAD DE LA NIEVE">
+                    <h3>LA SOCIEDAD DE LA NIEVE</h3>
+                </div>
+                <div class="box">
+                    <a href="./pages/detalle.html">
+                    <img class="imagenPeli" src="./assets/img/peli 7.png" alt="AMIGOS INTOCABLES">
+                    <h3>AMIGOS INTOCABLES</h3>
+                </div>
+                <div class="box">
+                    <a href="./pages/detalle.html">
+                    <img class="imagenPeli" src="./assets/img/peli 8.png" alt="EN BUSCA DE LA FELICIDAD">
+                    <h3>EN BUSCA DE LA FELICIDAD</h3>
+                </div>
+
+                
+               </section>
+               <br>
+                <button>Anterior</button>
+                <button>Proximo</button><br>
+                
+               <section><br>
+               <hr>
+               <h2>Las mas aclamadas</h2>
+               </section>
+            </main>
+         
+    <footer>
+    <!-- este es el pie de pagina -->
+<nav>
+    <ul>
+        <li>
+            <a href="">Terminos y Condiciones</a>
+        </li>
+        <li>
+            <a href="">Ayuda</a>
+        </li>
+        <li>
+            <a href="">Preguntas Frecuentes</a>
+        </li>
+        <li>
+            <a href="">Administrador de Peliculas</a>
+        </li>
+    </ul>
+</nav>
+<a href="#principal">
+<i class="fa-solid fa-arrow-up"></i></a>
+<p class="colorVioleta fuenteMediana" >todos los derechos reservados</p>
+<p>derechos de autor</p>
+    </footer>
+   
+</body>
+</html>

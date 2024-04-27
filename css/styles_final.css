@@ -1,0 +1,129 @@
+body{
+    background: black;
+}
+
+header, footer{
+  background: rgb(216, 204, 235);
+}
+
+/* ul{
+display: flex;
+justify-content: end;
+text-decoration: none;
+} */
+
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 1.5rem 0;
+}
+
+.listaNav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.listaItem{
+   padding: 10px;
+} 
+
+.linkNav{
+  border-radius: 15px;
+  border-style: solid;
+  border: solid 1px;
+  background-color: rgb(145, 145, 208);
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+#principal{
+  display: block;
+  align-items: center;
+  justify-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+.linkNav2{
+  border-radius: 15px;
+  border-style: solid;
+  border: solid 1px;
+  background-color: rgb(145, 145, 208);
+  padding: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+
+}
+
+.formT{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ }
+
+h1{
+font-size: 4em;
+text-align: center;  
+}
+
+
+h2{
+  font-size: 3em;
+  text-align: center;  
+  }
+
+p,h1,h2,h3,label{
+  color: white
+  }
+
+#tendencia{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+
+.box{
+  
+
+}
+
+.imagenPeli{
+  width: 300px;
+  height: 450px;
+ }
+
+
+
+/*importaciones de fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*las animaciones*/
+/*reseteo de valores*/
+  /* usar hasta 3 tipos de fuentes diferentes en pag web */
+  /* regla font-face para fuente descargada */
+@font-face {
+    font-family: "Noto Sans";
+    src: url("../assets/fonts/notoSans/NotoSans-VariableFont_wdth\,wght.ttf");
+}
+*{
+    font-family: "Noto Sans", sans-serif;
+}
+  /* el * es un selector universal para toda la pag */
+/*configuracion de usuario root*/
+/*clases utilitarias con sus valores*/
+/*estilos generales
+header
+nav
+main
+section
+ footer */
