@@ -2,10 +2,16 @@ body{
     background: black;
 }
 
-header, footer{
-  background: rgb(216, 204, 235);
+.bodyInicioSesion{
+  background-image: url("https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2017/03/Captura-de-pantalla-2017-03-30-a-las-11.59.05.png?w=2012&quality=55&strip=all&ssl=1");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
+.headerFooter{
+  background: rgb(216, 204, 235)
+}
 /* ul{
 display: flex;
 justify-content: end;
@@ -60,6 +66,8 @@ text-decoration: none;
   text-decoration: none;
 
 }
+
+
 
 .formT{
   display: flex;
