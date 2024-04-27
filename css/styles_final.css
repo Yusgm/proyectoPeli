@@ -1,7 +1,12 @@
 body{
     background: black;
 }
-
+#bodyRegistro{
+  background-image: url("../assets/img/fonfopelicula.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .bodyInicioSesion{
   background-image: url("https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2017/03/Captura-de-pantalla-2017-03-30-a-las-11.59.05.png?w=2012&quality=55&strip=all&ssl=1");
   background-repeat: no-repeat;
@@ -84,7 +89,7 @@ text-align: center;
 }
 
 
-h2{
+.h2Encabezado{
   font-size: 3em;
   text-align: center;  
   }
@@ -93,6 +98,21 @@ p,h1,h2,h3,label{
   color: white
   }
 
+.divInicioSesion{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.formInicioSesion{
+  border: 1px solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: lightslategray;
+  max-width: 330px;
+  max-height: 700px;
+  padding: 40px 20px;
+}
 #tendencia{
   /* display: flex;
   flex-wrap: wrap;
@@ -103,20 +123,12 @@ p,h1,h2,h3,label{
   gap: 60px;
 }
 
-
-.box{
-  
-
-}
-
 .imagenPeli{
   width: 300px;
   height: 450px;
  }
 
-
-
-/*importaciones de fonts*/
+ /*importaciones de fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /*las animaciones*/
 /*reseteo de valores*/
